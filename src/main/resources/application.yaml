@@ -1,3 +1,10 @@
 spring:
   application:
     name: missionservice
+  datasource:
+    port: 3306
+    url: jdbc:mysql://localhost:3306/ProjectPokemonMissions
+    database: ProjectPokemonMissions
+    username: root
+    password: root
+    ssl: false
